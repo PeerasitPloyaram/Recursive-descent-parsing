@@ -17,7 +17,7 @@ def match(char):
         index += 1                      # Move Pointer
         return "Match! Advance Input"
     else:
-        return f"Mismatch: {char} is not{token[index]} ! backtrack..."
+        return f"Mismatch: {char} is not {token[index]} ! backtrack..."
 
 
 buffer = [] # Buffer of input gramma
