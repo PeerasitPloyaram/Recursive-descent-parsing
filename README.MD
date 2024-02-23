@@ -15,10 +15,11 @@
 - Input 'exit' for end Gramma
 
 ``` Bash
-# Run Defaults
+# Run Default
 $ python3 main.py
 ```
-```
+#### Input
+``` Bash
 # Input Gramma
 Input Gramma: E=T|T+E
 Input Gramma: T=int|int*T|(E)
