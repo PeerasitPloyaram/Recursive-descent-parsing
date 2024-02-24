@@ -44,95 +44,95 @@ Input Token: (int)
     Token Stream is: (int)
 
     ------------------------------------
-    Gramma[T] Token is: ) Index is: [0]
+    Gramma[T] Token is: ( Index is: [0]
     Status: Mismatch: T is not ( ! backtrack...
 
-    Gramma[T] Token is: ) Index is: [0]
+    Gramma[T] Token is: ( Index is: [0]
     Status: Mismatch: T is not ( ! backtrack...
 
-    Gramma[+] Token is: ) Index is: [0]
+    Gramma[+] Token is: ( Index is: [0]
     Status: Mismatch: + is not ( ! backtrack...
 
-    Gramma[E] Token is: ) Index is: [0]
+    Gramma[E] Token is: ( Index is: [0]
     Status: Mismatch: E is not ( ! backtrack...
 
-    Gramma[i] Token is: ) Index is: [0]
+    Gramma[i] Token is: ( Index is: [0]
     Status: Mismatch: i is not ( ! backtrack...
 
-    Gramma[n] Token is: ) Index is: [0]
+    Gramma[n] Token is: ( Index is: [0]
     Status: Mismatch: n is not ( ! backtrack...
 
-    Gramma[t] Token is: ) Index is: [0]
+    Gramma[t] Token is: ( Index is: [0]
     Status: Mismatch: t is not ( ! backtrack...
 
-    Gramma[i] Token is: ) Index is: [0]
+    Gramma[i] Token is: ( Index is: [0]
     Status: Mismatch: i is not ( ! backtrack...
 
-    Gramma[n] Token is: ) Index is: [0]
+    Gramma[n] Token is: ( Index is: [0]
     Status: Mismatch: n is not ( ! backtrack...
 
-    Gramma[t] Token is: ) Index is: [0]
+    Gramma[t] Token is: ( Index is: [0]
     Status: Mismatch: t is not ( ! backtrack...
 
-    Gramma[*] Token is: ) Index is: [0]
+    Gramma[*] Token is: ( Index is: [0]
     Status: Mismatch: * is not ( ! backtrack...
 
-    Gramma[T] Token is: ) Index is: [0]
+    Gramma[T] Token is: ( Index is: [0]
     Status: Mismatch: T is not ( ! backtrack...
 
-    Gramma[(] Token is: ) Index is: [0]
+    Gramma[(] Token is: ( Index is: [0]
     Status: Match! Advance Input
 
-    Gramma[E] Token is: ( Index is: [1]
+    Gramma[E] Token is: i Index is: [1]
     Status: Mismatch: E is not i ! backtrack...
 
-    Gramma[)] Token is: ( Index is: [1]
+    Gramma[)] Token is: i Index is: [1]
     Status: Mismatch: ) is not i ! backtrack...
 
     ------------------------------------
-    Gramma[T] Token is: ( Index is: [1]
+    Gramma[T] Token is: i Index is: [1]
     Status: Mismatch: T is not i ! backtrack...
 
-    Gramma[T] Token is: ( Index is: [1]
+    Gramma[T] Token is: i Index is: [1]
     Status: Mismatch: T is not i ! backtrack...
 
-    Gramma[+] Token is: ( Index is: [1]
+    Gramma[+] Token is: i Index is: [1]
     Status: Mismatch: + is not i ! backtrack...
 
-    Gramma[E] Token is: ( Index is: [1]
+    Gramma[E] Token is: i Index is: [1]
     Status: Mismatch: E is not i ! backtrack...
 
-    Gramma[i] Token is: ( Index is: [1]
+    Gramma[i] Token is: i Index is: [1]
     Status: Match! Advance Input
 
-    Gramma[n] Token is: i Index is: [2]
+    Gramma[n] Token is: n Index is: [2]
     Status: Match! Advance Input
 
-    Gramma[t] Token is: n Index is: [3]
+    Gramma[t] Token is: t Index is: [3]
     Status: Match! Advance Input
 
-    Gramma[i] Token is: t Index is: [4]
+    Gramma[i] Token is: ) Index is: [4]
     Status: Mismatch: i is not ) ! backtrack...
 
-    Gramma[n] Token is: t Index is: [4]
+    Gramma[n] Token is: ) Index is: [4]
     Status: Mismatch: n is not ) ! backtrack...
 
-    Gramma[t] Token is: t Index is: [4]
+    Gramma[t] Token is: ) Index is: [4]
     Status: Mismatch: t is not ) ! backtrack...
 
-    Gramma[*] Token is: t Index is: [4]
+    Gramma[*] Token is: ) Index is: [4]
     Status: Mismatch: * is not ) ! backtrack...
 
-    Gramma[T] Token is: t Index is: [4]
+    Gramma[T] Token is: ) Index is: [4]
     Status: Mismatch: T is not ) ! backtrack...
 
-    Gramma[(] Token is: t Index is: [4]
+    Gramma[(] Token is: ) Index is: [4]
     Status: Mismatch: ( is not ) ! backtrack...
 
-    Gramma[E] Token is: t Index is: [4]
+    Gramma[E] Token is: ) Index is: [4]
     Status: Mismatch: E is not ) ! backtrack...
 
-    Gramma[)] Token is: t Index is: [4]
+    Gramma[)] Token is: ) Index is: [4]
     Status: Match! Advance Input
 
     ------------------------------------
