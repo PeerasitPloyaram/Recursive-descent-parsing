@@ -32,13 +32,21 @@ while True:
 
 main_gramma = [couter]          # Init Main Buffer Gramma
 token = input("Input Token: ")
+if len(token) == 0:
+    print(f"Error: Token stream must not empty.")
+    exit(1)
 
 for i in range(couter):
-    a,b = buffer[i].split('=',1)        # Split Header and Gramma e -> t | t+e
-    main_gramma.append(a)
+    try:
+        a,b = buffer[i].split('=',1)        # Split Header and Gramma e -> t | t+e
+    except:
+        print(f"Error: Gramma require '='. ")
+        exit(1)
 
+    main_gramma.append(a)
     gramma_split = b.split("|")
     main_gramma.append(gramma_split)    # t | t+e
+
 del main_gramma[0]                      # Delete Counter
 
 print(f"\nGramma is:\n------------------\n")    # Print Gramma
@@ -62,7 +70,7 @@ for round in range(len(token)):
                     print("End of input, accept")
                     exit()
 
-                print(f"Gramma[{k}] Token is: {token[index-1]} Index is: [{index}]")
+                print(f"Gramma[{k}] Token is: {token[index]} Index is: [{index}]")
                 print(f"Status: {match(k)}\n")
                                                         # Reject
 print("End of input, reject")
